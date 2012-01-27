@@ -13,7 +13,7 @@
     
     var spoofs=[
       {username:'TPMZxDOl',ident:'ray (a delegate for steve)'},
-      {username:'tG9dRIJw',ident:'steve (delegate for ray)'},
+      {username:'tG9dRIJw',ident:'steve'},
       {username:'rZtQppda',ident:'john'},
       {username:'V8l5kNue',ident:'bob'},
       {username:'pOe6u9Oi',ident:'jane'},
