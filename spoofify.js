@@ -25,8 +25,15 @@
       {username:'leZnjUsR',ident:'lauren'}
     ];
     
-    var div = '<div id="spoof" style="padding:10px;background-color:#343434;color:white;"><p>Spoof as...</p>';
-  
+
+    var div='<div id="spoof" style="padding:10px;background-color:#343434;color:white;">' +
+  		'<div style="display:table;width:100%">' + 
+			'Spoof as...' + 
+			'<div style="background:white; color:black; font-weight:bold; display:table; float:right; width:20px; text-align:center;" onClick="$(\'#spoof\').hide();">' +
+			'X' + 
+			'</div>' +
+			'</div>';
+      
     for(var i=0;i<spoofs.length;i++){
       div+='<div style="padding:5px;margin:2px;background:#ABABAB;font-size:2em;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + ' : ' + spoofs[i].username + '</div>';
     };
