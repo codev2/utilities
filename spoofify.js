@@ -22,7 +22,8 @@
       {username:'WGQfbCKd',ident:'ringo'},
       {username:'utRh3k2z',ident:'dave'},
       {username:'iQjaVpUh',ident:'nate'},
-      {username:'leZnjUsR',ident:'lauren'}
+      {username:'leZnjUsR',ident:'lauren'},
+      {username:'kTgrIR46',ident:'bill (no summary)'}
     ];
     
 
