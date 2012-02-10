@@ -16,7 +16,7 @@
       {username:'SQ5mWHe2',ident:'grav'},
       {username:'tG9dRIJw',ident:'steve'},
       {username:'rZtQppda',ident:'john'},
-      {username:'V8l5kNue',ident:'bob'},
+      {username:'V8l5kNue',ident:'"GRAV"'},
       {username:'pOe6u9Oi',ident:'jane'},
       {username:'yynrbS38',ident:'emily'},
       {username:'bj6tg7n2',ident:'phil'},
