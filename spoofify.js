@@ -17,7 +17,7 @@
       {username:'StephanieMartin',ident:'Stephanie Martin<br/><i>(grav)</i>'},
       {username:'WillardBrown',ident:'Willard Brown'},
       {username:'JenniferRoy',ident:'"Jennifer Roy"'},
-      {username:'MichelleRoy',ident:'Michelle Roy<br/><i>(no bbc, delegate for Ray)<i>'}
+      {username:'MichelleRoy',ident:'Michelle Roy<br/><i>(no bbc, delegate for Ray)</i>'}
     ];
     
 
