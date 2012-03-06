@@ -30,7 +30,7 @@
 			'</div>';
       
     for(var i=0;i<spoofs.length;i++){
-      div+='<div style="padding:5px;margin:2px;background:#ABABAB;font-size:2em;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + ' : ' + spoofs[i].username + '</div>';
+      div+='<div style="padding:5px;margin:5px;background:#ABABAB;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
     };
   
     div += '</div>';
