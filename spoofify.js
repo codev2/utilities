@@ -12,12 +12,12 @@
     };
     
     var spoofs=[
-      {username:'RayDalio',ident:'Ray Dalio<br/><i>(a delegate for Jennifer Roy)</i>'},
-      {username:'EmmaClark',ident:'Emma Clark<br/><i>(god delegate)</i>'},
-      {username:'StephanieMartin',ident:'Stephanie Martin<br/><i>(grav)</i>'},
+      {username:'RayDalio',ident:'Ray Dalio<br/><i style="font-size:0.7em">(a delegate for Jennifer Roy)</i>'},
+      {username:'EmmaClark',ident:'Emma Clark<br/><i style="font-size:0.7em">(god delegate)</i>'},
+      {username:'StephanieMartin',ident:'Stephanie Martin<br/><i style="font-size:0.7em">(grav)</i>'},
       {username:'WillardBrown',ident:'Willard Brown'},
       {username:'JenniferRoy',ident:'Jennifer Roy'},
-      {username:'MichelleRoy',ident:'Michelle Roy<br/><i>(no bbc, delegate for Ray)</i>'}
+      {username:'MichelleRoy',ident:'Michelle Roy<br/><i style="font-size:0.7em">(no bbc, delegate for Ray)</i>'}
     ];
     
 
@@ -30,7 +30,7 @@
 			'</div>';
       
     for(var i=0;i<spoofs.length;i++){
-      div+='<div style="height:3em;padding:10px;margin:5px;background:#003366;color:#FFCC00;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
+      div+='<div style="height:3em;padding:10px;margin:5px;background:#003366;color:#FFCC00;font-size:2em;vertical-align:middle;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
     };
   
     div += '</div>';
