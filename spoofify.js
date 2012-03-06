@@ -16,12 +16,12 @@
       {username:'EmmaClark',ident:'Emma Clark<br/><i>(god delegate)</i>'},
       {username:'StephanieMartin',ident:'Stephanie Martin<br/><i>(grav)</i>'},
       {username:'WillardBrown',ident:'Willard Brown'},
-      {username:'JenniferRoy',ident:'"Jennifer Roy"'},
+      {username:'JenniferRoy',ident:'Jennifer Roy'},
       {username:'MichelleRoy',ident:'Michelle Roy<br/><i>(no bbc, delegate for Ray)</i>'}
     ];
     
 
-    var div='<div id="spoof" style="padding:10px;background-color:#343434;color:white;">' +
+    var div='<div id="spoof" style="padding:10px;background-color:#003366;color:#FFCC00;">' +
   		'<div style="display:table;width:100%">' + 
 			'Spoof as...' + 
 			'<div style="background:white; color:black; font-weight:bold; display:table; float:right; width:20px; text-align:center;" onClick="$(\'#spoof\').hide();">' +
@@ -30,7 +30,7 @@
 			'</div>';
       
     for(var i=0;i<spoofs.length;i++){
-      div+='<div style="padding:5px;margin:5px;background:#ABABAB;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
+      div+='<div style="height:2em;padding:5px;margin:5px;background:#CCCCCC;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
     };
   
     div += '</div>';
