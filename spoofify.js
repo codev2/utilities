@@ -21,16 +21,16 @@
     ];
     
 
-    var div='<div id="spoof" style="padding:10px;background-color:#003366;color:#FFCC00;">' +
+    var div='<div id="spoof" style="padding:20px;background-color:#CCC;color:white;">' +
   		'<div style="display:table;width:100%">' + 
-			'Spoof as...' + 
+			'<b>Spoof as...</b>' + 
 			'<div style="background:white; color:black; font-weight:bold; display:table; float:right; width:20px; text-align:center;" onClick="$(\'#spoof\').hide();">' +
 			'X' + 
 			'</div>' +
 			'</div>';
       
     for(var i=0;i<spoofs.length;i++){
-      div+='<div style="height:2em;padding:5px;margin:5px;background:#CCCCCC;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
+      div+='<div style="height:3em;padding:10px;margin:5px;background:#003366;color:#FFCC00;font-size:2em;text-align:center;" onclick="window.spoof(\'' + spoofs[i].username + '\');">' + spoofs[i].ident + '</div>';
     };
   
     div += '</div>';
