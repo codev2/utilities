@@ -12,19 +12,12 @@
     };
     
     var spoofs=[
-      {username:'TPMZxDOl',ident:'ray (a delegate for steve)'},
-      {username:'SQ5mWHe2',ident:'grav'},
-      {username:'tG9dRIJw',ident:'steve'},
-      {username:'rZtQppda',ident:'john'},
-      {username:'V8l5kNue',ident:'"GRAV"'},
-      {username:'pOe6u9Oi',ident:'jane'},
-      {username:'yynrbS38',ident:'emily'},
-      {username:'bj6tg7n2',ident:'phil'},
-      {username:'WGQfbCKd',ident:'ringo'},
-      {username:'utRh3k2z',ident:'dave'},
-      {username:'iQjaVpUh',ident:'nate'},
-      {username:'leZnjUsR',ident:'lauren'},
-      {username:'kTgrIR46',ident:'bill (no summary)'}
+      {username:'RayDalio',ident:'Ray Dalio<br/><i>(a delegate for Jennifer Roy)</i>'},
+      {username:'EmmaClark',ident:'Emma Clark<br/><i>(god delegate)</i>'},
+      {username:'StephanieMartin',ident:'Stephanie Martin<br/><i>(grav)</i>'},
+      {username:'WillardBrown',ident:'Willard Brown'},
+      {username:'JenniferRoy',ident:'"Jennifer Roy"'},
+      {username:'MichelleRoy',ident:'Michelle Roy<br/><i>(no bbc, delegate for Ray)<i>'}
     ];
     
 
